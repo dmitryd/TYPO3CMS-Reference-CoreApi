@@ -133,9 +133,6 @@ Extended composer.json
             "MyVendor\\MyExtension\\": "Classes/"
          }
       },
-      "require-dev": {
-         "nimut/testing-framework": "^4.2 || ^5.1"
-      },
       "extra": {
          "typo3/cms": {
             "extension-key": "my_extension"
