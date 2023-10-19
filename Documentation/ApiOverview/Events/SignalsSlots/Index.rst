@@ -90,7 +90,7 @@ To connect a slot to a signal, use the :php:`\TYPO3\CMS\Extbase\SignalSlot\Dispa
 This method accepts the following arguments:
 
 1. :php:`$signalClassName`: Name of the class containing the signal
-2. :php:`$signalName`: Name of the class containing the signal
+2. :php:`$signalName`: Name of the signal
 3. :php:`$slotClassNameOrObject`: Name of the class containing the slot or the instantiated class or a :php:`\Closure` object
 4. :php:`$slotMethodName`: Name of the method to be used as a slot. If :php:`$slotClassNameOrObject` is a :php:`\Closure` object, this parameter is ignored and can be skipped
 5. :php:`$passSignalInformation`: If set to :php:`true`, the last argument passed to the slot will be information about the signal (:php:`EmitterClassName::signalName`)
