@@ -89,7 +89,7 @@ and if so exclude it. The same problem applies to all other
 "enableFields", future versions with "delete" flags and current
 versions which are invisible placeholders for future records. Anyway,
 all that is handled by the
-:code:`\TYPO3\CMS\Core\Domain\Repository\PageRepository` class which includes
+:php:`\TYPO3\CMS\Core\Domain\Repository\PageRepository` class which includes
 functions for "enableFields" and "deleted" so it will work out of the
 box for you. But as soon as you do selection based on other fields
 like email, username, alias etc. it will fail.
